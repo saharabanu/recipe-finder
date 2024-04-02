@@ -1,4 +1,4 @@
-import { Recipe } from "../types/globaltypes";
+import { FormInput, Recipe } from "../types/globaltypes";
 
 export const data: Recipe[]= [
     {
@@ -73,3 +73,33 @@ export const data: Recipe[]= [
     },
 
 ]
+
+export const inputFields: FormInput[] = [
+    {
+      type: "text",
+      name: "from_name",
+      placeholder: "Your Name*",
+      required: true,
+    },
+    {
+      type: "email",
+      name: "from_email",
+      placeholder: "Your Email*",
+      required: true,
+    },
+    {
+      type: "text",
+      name: "from_con",
+      placeholder: "Your Contact Number*",
+      pattern: "^01\\d{9}$",
+      title: "Mobile Number must be 11 digits like 01742561023",
+      required: true,
+    },
+    {
+      type: "textarea",
+      name: "message",
+      placeholder: "Your Message*",
+      required: true,
+    },
+  ];
+  

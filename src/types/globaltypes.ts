@@ -45,4 +45,15 @@ export type SubLink = {
   }
   export interface SingleRecipeProps {
     item: Recipe;
-}  
+} 
+
+// form input
+
+export interface FormInput {
+  type: string;
+  name: string;
+  placeholder: string;
+  pattern?: string;
+  title?: string;
+  required?: boolean;
+}

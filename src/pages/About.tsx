@@ -2,8 +2,8 @@
 
 const About = () => {
     return (
-        <div>
-            <h2>This is about page</h2>
+        <div className="h-screen bg-gray-200 flex justify-center items-center" >
+            <h2 className="text-2xl font-bold">Coming soon our About Page</h2>
         </div>
     );
 };

@@ -8,7 +8,7 @@ import { MdOutlineWatchLater } from "react-icons/md";
 const SingleRecipe: React.FC<SingleRecipeProps> = ({item}) => {
     const {title,img, category} = item;
     return (
-        <div className="  shadow-md h-[400px] ">
+        <div className="  shadow-md h-[400px] lg:mb-0 mb-5">
             <div className=" overflow-hidden">
                 <img src={img} alt="recipe img" className="h-60 w-full mb-3  transform hover:scale-125 cursor-pointer transition-all duration-300 delay-300 " />
             </div>

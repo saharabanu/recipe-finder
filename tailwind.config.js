@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lemon: ["Lemon", "serif"],
+        sanspro: ["Value Sans Pro", "serif"],
+        baklida: ["Bakilda Histori", "serif"],
+        lemonada: ["Lemonada", "cursive"],
+        abril: ["Abril Display", "serif"],
+       
+      }
+    },
   },
   plugins: [],
 }

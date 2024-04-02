@@ -8,7 +8,7 @@ import { IoMenuSharp, IoClose } from "react-icons/io5";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
-      <nav className="bg-white border-b shadow-lg sticky top-0">
+      <nav className="bg-white border-b shadow-lg sticky top-0 z-50">
         <div className="flex items-center font-medium justify-around">
           <div className="z-50 p-5 md:w-auto w-full flex justify-between">
             {/* <img src="" alt="logo" className="md:cursor-pointer h-9" /> */}
@@ -27,7 +27,7 @@ const Navbar = () => {
             <NavbarLinks />
           </ul>
           <div className="md:block hidden">
-            <Button />
+            <Button  title="Login"/>
           </div>
           {/* Mobile nav */}
           <ul
@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
             <NavbarLinks />
             <div className="py-5">
-              <Button />
+              <Button title="Login"/>
             </div>
           </ul>
         </div>

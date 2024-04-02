@@ -33,3 +33,16 @@ export type SubLink = {
     submenu?: boolean;
     sublinks?: Submenu[];
   };
+
+  // recipe data
+
+  export interface Recipe {
+    id: number;
+    img: string;
+    title: string;
+    desc: string;
+    category: string;
+  }
+  export interface SingleRecipeProps {
+    item: Recipe;
+}  

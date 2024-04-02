@@ -1,11 +1,13 @@
+import AllRecipes from "../components/ui/AllRecipes";
+import Banner from "../components/ui/Banner";
 
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is home page</h1>
-            <p>lorem200</p>
-        </div>
+        <>
+           <Banner/>
+           <AllRecipes/>
+        </>
     );
 };
 

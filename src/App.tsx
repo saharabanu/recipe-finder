@@ -1,13 +1,18 @@
 
 import './App.css'
+import MainLayout from './layouts/MainLayout'
+
+
 
 function App() {
  
 
   return (
     <>
+    {/* <Navbar/> */}
+    <MainLayout/>
       
-      <h2 className='bg-red-500'>hello</h2>
+      
     </>
   )
 }

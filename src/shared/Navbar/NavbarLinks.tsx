@@ -11,9 +11,9 @@ const NavbarLinks = () => {
     <>
       {links.map((link: LinkItem, index: number) => (
         <div key={index}>
-          <div className="px-3 text-left md:cursor-pointer group">
+          <div className="px-3 text-left md:cursor-pointer group text-sm">
             <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group hover:text-orange-500 transition-all duration-150 delay-300"
+              className="py-7 flex justify-between items-center md:pr-0 pr-5 group hover:text-orange-500 transition-all duration-150 delay-300 "
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -21,7 +21,8 @@ const NavbarLinks = () => {
             >
               {link.name}
               <span className="text-xl md:hidden inline">
-                {heading === link.name  ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                {heading === link.name   ? <IoIosArrowDown /> : ""}
+                {/* <IoIosArrowUp/> */}
               </span>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                 {link.sublinks ? <IoIosArrowDown /> : ""}
@@ -40,7 +41,7 @@ const NavbarLinks = () => {
                     {link?.sublinks?.map(
                       (mysublinks: SubMenu, index: number) => (
                         <div key={index}>
-                          <h1 className="text-lg font-semibold">
+                          <h1 className="text-sm font-semibold">
                             {mysublinks.Head}
                           </h1>
                           {mysublinks.sublink.map(

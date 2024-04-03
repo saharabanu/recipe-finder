@@ -1,11 +1,4 @@
-import img1 from "../../assets/img/port_img_1.png";
-import img2 from "../../assets/img/port_img_2.png";
-import img3 from "../../assets/img/port_img_3.png";
-import img4 from "../../assets/img/port_img_4.png";
-import img5 from "../../assets/img/port_img_sm.jpg";
-import img6 from "../../assets/img/port_img_bg.jpg";
-import img7 from "../../assets/img/port_img_7.png";
-import img8 from "../../assets/img/port_img_8.png";
+
 
 const Gallery = () => {
   return (

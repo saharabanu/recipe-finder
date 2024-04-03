@@ -1,0 +1,32 @@
+/* .port_img {
+    position: relative;
+  }
+  .port_img_overlay {
+    height: 100%;
+    width: 0%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+  .port_img_overlay a {
+    height: 40px;
+    width: 40px;
+    background: var(--color2);
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+  }
+  .port_img:hover .port_img_overlay {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+  } */

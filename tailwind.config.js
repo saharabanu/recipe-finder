@@ -7,13 +7,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        lemon: ["Lemon", "serif"],
-        sanspro: ["Value Sans Pro", "serif"],
-        baklida: ["Bakilda Histori", "serif"],
-        lemonada: ["Lemonada", "cursive"],
         abril: ["Abril Display", "serif"],
        
-      }
+      },
+      backgroundImage: {
+        'banner-bg':"url('https://braise.qodeinteractive.com/wp-content/uploads/2021/09/main-home-recipe-list-img-4.jpg')",
+       
+
+        
+      },
+      boxShadow: {
+        'orange-black': '1px 1px 2px orange, -1px -1px 2px black',
+      },
     },
   },
   plugins: [],

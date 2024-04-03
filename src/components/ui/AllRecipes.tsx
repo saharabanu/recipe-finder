@@ -16,7 +16,7 @@ const AllRecipes = () => {
 
 
   return (
-    <div className="lg:mx-14 mx-5 z-20 py-14">
+    <div className="lg:mx-14 mx-5 z-20 py-14 mt-5">
       <div className=" flex justify-center items-center mb-8">
  
  <div className="">

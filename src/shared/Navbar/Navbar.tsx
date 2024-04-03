@@ -20,10 +20,11 @@ const Navbar = () => {
           </div>
           <ul className="md:flex hidden uppercase items-center gap-8 ">
             <li>
-              <Link to="/" className="py-7 px-3 inline-block hover:text-orange-500 transition-all duration-150 delay-300">
+              <Link to="/" aria-current="page" className=" text-[#FC5201] py-7 px-3 inline-block hover:text-orange-500 transition-all duration-150 delay-300">
                 Home
               </Link>
             </li>
+            {/* <a className="text-[#FC5201]" href="/" aria-current="page">Home</a> */}
             <NavbarLinks />
           </ul>
           <div className="md:block hidden">

@@ -34,6 +34,18 @@ export type SubLink = {
     sublinks?: Submenu[];
   };
 
+
+  // banner type
+  export interface SliderItem {
+    image: string;
+    title: string;
+  }
+
+  export interface SliderDesignProps {
+    text: string;
+    img: string;
+}
+
   // recipe data
 
   export interface Recipe {
@@ -57,3 +69,4 @@ export interface FormInput {
   title?: string;
   required?: boolean;
 }
+

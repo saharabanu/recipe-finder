@@ -1,4 +1,21 @@
-import { FormInput, Recipe } from "../types/globaltypes";
+import { FormInput, Recipe, SliderItem } from "../types/globaltypes";
+
+// banner data
+export const sliderData: SliderItem[] = [
+    {
+      image: "https://braise.qodeinteractive.com/wp-content/uploads/2021/09/home-2-recipe-list-iimg-1.jpg",
+      title: "Avocado bacon sandwich with lettuce",
+    },
+    {
+      image: "https://braise.qodeinteractive.com/wp-content/uploads/2021/09/home-2-recipe-list-iimg-1.jpg",
+      title: "Looking way ahead allows you to imagine anything",
+    },
+    {
+      image:"https://braise.qodeinteractive.com/wp-content/uploads/2021/09/home-2-recipe-list-iimg-1.jpg",
+      title: "Looking way ahead allows you to imagine anything",
+    },
+  ];
+  
 
 export const data: Recipe[]= [
     {
@@ -18,7 +35,7 @@ export const data: Recipe[]= [
     {
         id:3,
         img:"https://braise.qodeinteractive.com/wp-content/uploads/2021/09/home-5-recipe-list-img-3-429x486.jpg",
-        title:"Tomato sandwich with hummus",
+        title:"Tomato sandwich with hummus consectetur",
         desc:"Lorem ipsum dolor sit amet, consectetur adipicibe elit, sed do eiusmod tempor inci didunt ut labore e dolore magnna ad aliquam. Ut enim",
         category:"RAW FOOD",
     },
@@ -32,14 +49,14 @@ export const data: Recipe[]= [
     {
         id:5,
         img:"https://braise.qodeinteractive.com/wp-content/uploads/2021/09/main-home-recipe-list-img-5-429x486.jpg",
-        title:"Mushroom cream soup with vegetables and red pepper",
+        title:"Mushroom cream soup with vegetables,   pepper",
         desc:"Lorem ipsum dolor sit amet, consectetur adipicibe elit, sed do eiusmod tempor inci didunt ut labore e dolore magnna ad aliquam. Ut enim",
         category:"SNACKS",
     },
     {
         id:6,
         img:"https://braise.qodeinteractive.com/wp-content/uploads/2021/09/home-2-recipe-list-2-img-2-429x486.jpg",
-        title:"Healthy blueberry cereal",
+        title:"Healthy blueberry cereal consectetur",
         desc:"Lorem ipsum dolor sit amet, consectetur adipicibe elit, sed do eiusmod tempor inci didunt ut labore e dolore magnna ad aliquam. Ut enim",
         category:"DESSERTS",
     },

@@ -1,30 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
-import slider_1 from "../../assets/slider/1.jpg";
-import slider_2 from "../../assets/slider/2.jpg";
-import slider_3 from "../../assets/slider/3.jpg";
+
 import SliderDesign from "./SliderDesign";
+import { sliderData } from "../../data/recipes";
 
-interface SliderItem {
-  image: string;
-  title: string;
-}
 
-const sliderData: SliderItem[] = [
-  {
-    image: slider_1,
-    title: "Looking way ahead allows you to imagine anything",
-  },
-  {
-    image: slider_2,
-    title: "Looking way ahead allows you to imagine anything",
-  },
-  {
-    image: slider_3,
-    title: "Looking way ahead allows you to imagine anything",
-  },
-];
+
+
 
 const HeroSection = () => {
   return (

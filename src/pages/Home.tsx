@@ -9,6 +9,8 @@ import Footer from "../layouts/Footer";
 const Home = () => {
     return (
         <>
+
+
            <Banner/>
            <AllRecipes/>
 
